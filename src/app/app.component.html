@@ -19,14 +19,16 @@
         <div (click)="numberPress($event)" class="tile" data-key="2">2</div>
         <div (click)="numberPress($event)" class="tile" data-key="3">3</div>
         <div (click)="numberPress($event)" class="tile" data-key="0">0</div>
-        <div disabled (click)="numberPress($event)" class="tile" data-key=".">.</div>
+        <div (click)="numberPress($event)" class="tile" data-key=".">.</div>
         <div (click)="clear()" class="tile">AC</div>
       </div>
       <div (click)="equal()" id="equals" class="tile">=</div>
     </div>
   </main>
   <footer>
-    <p>The "." key does not work yet Created by</p>
-    <a target="blank" href="https://github.com/JuanIWK3">JuanIWK3</a>
+    <p>
+      Created by
+      <a target="blank" href="https://github.com/JuanIWK3">JuanIWK3</a>
+    </p>
   </footer>
 </div>

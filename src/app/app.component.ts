@@ -65,22 +65,22 @@ export class AppComponent {
       switch (this.operator) {
         case '+':
           this.displayValue = (
-            parseInt(this.firstNumber) + parseInt(this.secondNumber)
+            parseFloat(this.firstNumber) + parseFloat(this.secondNumber)
           ).toString();
           break;
         case '-':
           this.displayValue = (
-            parseInt(this.firstNumber) - parseInt(this.secondNumber)
+            parseFloat(this.firstNumber) - parseFloat(this.secondNumber)
           ).toString();
           break;
         case '*':
           this.displayValue = (
-            parseInt(this.firstNumber) * parseInt(this.secondNumber)
+            parseFloat(this.firstNumber) * parseFloat(this.secondNumber)
           ).toString();
           break;
         case '÷':
           this.displayValue = (
-            parseInt(this.firstNumber) / parseInt(this.secondNumber)
+            parseFloat(this.firstNumber) / parseFloat(this.secondNumber)
           ).toString();
           break;
       }
